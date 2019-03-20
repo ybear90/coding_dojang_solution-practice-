@@ -17,7 +17,6 @@ for i in range(100, 1000):
 
 # Sol 2) By using mathematical algorithm
 # a = m^2 - n^2, b = 2mn c = m^2 + n^2(m > n)
-'''
 for m in range(2, 1000):
     for n in range(1, 1000):
         a = m**2 - n**2
@@ -29,4 +28,3 @@ for m in range(2, 1000):
             if (a > 0 and b > 0) and c > 0:
                 print("a, b, c: ", a, b, c)
                 print("a * b * c: ", a * b * c)
-'''
